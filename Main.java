@@ -288,3 +288,69 @@ public class Main {
         System.out.println("  ================================================");
     }
 }
+
+
+/*
+PROGRAM OUTPUT 
+
+  ----jGRASP exec: java Main
+   ================================================
+        COLLEGE COURSE FEEDBACK SYSTEM
+     Submit and review feedback for your courses
+   ================================================
+ 
+   MAIN MENU
+   ---------
+   [1] Submit feedback for a course
+   [2] View submitted feedback
+   [3] Exit
+   Enter your choice (1-3): 1
+   ================================================
+   SUBMIT COURSE FEEDBACK
+   ================================================
+   Step 1/4 | Enter your school email (or 'back' to cancel): mil@university.edu
+   [OK] Email verified.
+ 
+   Welcome, Mil!
+ 
+   Step 2/4 | Select a course to review:
+ 
+     [1] CS123 - Intro to Programming
+     [2] CS201 - Data Structures
+     [3] MATH101 - Calculus I
+     [4] ENG110 - English Composition
+     [5] BIO201 - Biology Fundamentals
+ 
+   Enter a number (1-5) or 'back' to cancel: 3
+   [OK] Course selected: MATH101 - Calculus I
+ 
+   Step 3/4 | Select a rating:
+ 
+     [1] * - - - -  Poor
+     [2] * * - - -  Fair
+     [3] * * * - -  Good
+     [4] * * * * -  Very Good
+     [5] * * * * *  Excellent
+ 
+   Enter a number (1-5) or 'back' to cancel: 4
+   [OK] Rating accepted: [****-] 4/5
+ 
+   Step 4/4 | Enter your feedback comment (or press Enter to skip): 
+   [OK] Skipped.
+ 
+   ================================================
+ ?  Feedback submitted successfully!
+     Student  : Mil (mil@university.edu)
+     Course   : MATH101
+     Rating   : 4/5
+     Submitted: 2026-06-03 12:19:09
+   ================================================
+ 
+   MAIN MENU
+   ---------
+   [1] Submit feedback for a course
+   [2] View submitted feedback
+   [3] Exit
+   Enter your choice (1-3): 
+
+*/
